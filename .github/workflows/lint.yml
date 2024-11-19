@@ -15,8 +15,8 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - name: Verify the integrity
-      	run: npm audit signatures
+        run: npm audit
       - name: Release
-      	env:
-		  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-		run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release
