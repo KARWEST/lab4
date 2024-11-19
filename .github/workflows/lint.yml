@@ -14,7 +14,7 @@ jobs:
           node-version: '16'
       - run: npm ci
       - run: npm run lint
-      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
+      - name: Verify the integrity
       	run: npm audit signatures
       - name: Release
       	env:
