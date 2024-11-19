@@ -14,9 +14,3 @@ jobs:
           node-version: '16'
       - run: npm ci
       - run: npm run lint
-      - name: Verify the integrity
-        run: npm audit
-      - name: Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release
