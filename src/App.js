@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Лабораторная 5
+          Лабораторная работа 5
         </a>
       </header>
     </div>
