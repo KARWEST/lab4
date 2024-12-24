@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Елизаров Герман Дмитриевич
+          Казьмин Дмитрий Станиславович
         </p>
         <a
           className="App-link"
